@@ -1,0 +1,1034 @@
+header{
+	padding-top: 30px;
+	background-image: linear-gradient(rgba(0,0,0, .9), rgba(0,0,0, .4)), url(../img/bg.jpg);
+	background-size: cover;
+	background-position: center;
+	transition: all .3s;
+	height: 100vh;
+}
+
+nav.normal-nav{
+	background-color: rgba(0,0,0, .0);
+	border-color: rgba(0,0,0,0);
+}
+
+.normal-nav li a:link,
+.normal-nav li a:visited {
+	border-bottom: solid 2px transparent;
+	transition: all .3s;
+}
+
+.normal-nav li a:hover,
+.normal-nav li a:active {
+	border-bottom: solid 2px #ffffff;
+	transition: a .3s;
+	transition: border-bottom .3s;
+}
+
+.sticky{
+	display: none;
+	background-color: rgba(248,248,248, .96);
+}
+
+.sticky li a{
+	transition: all .3s;
+}
+
+.sticky li a:hover{
+	color: #03a9f4 !important;
+}
+
+.slogan{
+	text-align: center;
+	font-family: 'Teko', sans-serif;
+	margin-top: 170px;
+	color: #fff;
+	font-size: 75px;
+	margin-bottom: 0;
+}
+
+.slogan-lead{
+	color: #03a9f4;
+}
+
+.slogan-description{
+	text-align: center;
+	color: #ffffff !important;
+	font-family: 'Oswald', sans-serif;
+	font-weight: lighter;
+	font-size: 30px;
+	margin-top: -10px;
+}
+
+.btn-landing{
+	padding: 10px 15px;
+	display: inline-block;
+	background: #03a9f4;
+	transition: all .3s;
+	color: #fff;
+}
+
+.btn-landing:hover{
+	text-decoration: none;
+	color: #03a9f4;
+	background: rgba(0,0,0,0);
+	border: 1px solid #03a9f4;
+}
+
+.feat1{
+	padding-top: 120px;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 130px;
+}
+
+.feat1 h2{
+	font-family: 'Oswald', sans-serif;
+	font-size: 50px;
+}
+
+.feat1 h2:after{
+	display: block;
+	height: 3px;
+	background-color: #ff1744; /* #03a9f4 - #ff1744 */
+	content: " ";
+	width: 170px;
+	margin: 15px auto 30px auto;
+}
+
+.feat1 p{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 20px;
+}
+
+.feat1 .ion {
+	font-size: 100px;
+	color: #ff1744;
+}
+
+p.feat1-description{
+	margin-bottom: 50px;
+}
+
+p.feat1-service-description{
+	font-family: 'Roboto Condensed';
+	font-size: 17.5px !important;
+	line-height: 35px;
+}
+
+.feat1 h3{
+	font-family: 'Oswald', sans-serif;
+	margin-bottom: 15px;
+}
+
+.desc{
+	padding: 0 40px;
+}
+
+.top-card{
+	padding: 10px 10px;
+  transition: all 0.5s;
+}
+
+.feat2{
+	width: 100%;
+	background-color: #f5f5f5;
+	border-top: 1px solid #eeeeee;
+	border-bottom: 1px solid #eeeeee;
+	padding-top: 70px;
+	padding-bottom: 90px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.feat2 h2{
+	font-family: 'Oswald', sans-serif;
+	font-size: 50px;
+}
+
+.feat2 h2:after{
+	display: block;
+	height: 3px;
+	background-color: #03a9f4; /* #03a9f4 */
+	content: " ";
+	width: 170px;
+	margin: 15px auto 70px auto;
+}
+
+img.mockup{
+	width: 100%;
+}
+
+.steps{
+	margin-top: 120px;
+}
+
+.step{
+	font-size: 23px;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin-bottom: 30px;
+}
+
+.number{
+	display: inline-block;
+	border: 4px solid #4fc3f7;
+	background-color: #03a9f4;
+	color: #ffffff;
+	float: left;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 3px;
+	font-size: 25px;
+	margin-right: 10px;
+}
+
+.step p{
+	margin-left: 10px;
+	font-size: 20px;
+	font-weight: lighter;
+}
+
+span.step-text{
+	padding-top: 5px;
+}
+
+img.store-badge{
+	width: 100%;
+}
+
+
+.feat3{
+	padding-top: 70px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.feat3 .container{
+	margin-bottom: 70px;
+}
+
+.feat3 h2{
+	font-family: 'Oswald', sans-serif;
+	font-size: 50px;
+}
+
+.feat3 h2:after{
+	display: block;
+	height: 3px;
+	background-color: #e0e0e0; /* #03a9f4 */
+	content: " ";
+	width: 140px;
+	margin: 15px auto 70px auto;
+}
+
+.feat3 p{
+	font-size: 20px;
+}
+
+.test{
+	width: 95%;
+	background-color: #FAFAFA;
+	border: 1px solid #f5f5f5;
+	margin-bottom: 40px;
+	padding-bottom: 10px;
+	transition: all .3s;
+	color: #9E9E9E;
+}
+
+.test:hover{
+	color: #000000;
+}
+
+.feat3 .ion {
+	color: #616161;
+	margin-top: 30px;
+	font-size: 80px;
+}
+
+.feat3 h3{
+	font-family: 'Roboto Condensed', sans-serif;
+	margin-bottom: 20px;
+	transition: all .3s;
+/*	color: #000000;*/
+}
+
+
+/*.feat3 h3:hover{
+	color: #000000;
+}*/
+
+.feat4{
+	width: 100%;
+	background-color: #f5f5f5;
+	border-top: 1px solid #eeeeee;
+	border-bottom: 1px solid #eeeeee;
+	padding-top: 70px;
+	padding-bottom: 90px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.feat4 .container{
+	margin-bottom: 20px;
+}
+
+.feat4 h2{
+	font-family: 'Oswald', sans-serif;
+	font-size: 50px;
+}
+
+.feat4 h2:after{
+	display: block;
+	height: 3px;
+	background-color: #000000; /* #03a9f4 */
+	content: " ";
+	width: 130px;
+	margin: 15px auto 70px auto;
+}
+
+.feat4 .contact-us{
+	font-family: 'Oswald', sans-serif;
+	background-color: #ffffff;
+	padding: 30px;
+	border: 1px solid #eeeeee;
+	border-radius: 4px;
+	transition: all .3s;
+}
+
+.feat4 .contact-us form{
+	margin-bottom: 72px;
+}
+
+input, textarea{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: lighter;
+}
+
+.contact-info{
+	font-size: 125%;
+}
+
+.info-value{
+	font-weight: lighter;
+}
+
+.contact-info h4{
+	margin-bottom: 20px;
+}
+
+.contact-info p{
+	margin-bottom: 15px;
+}
+
+footer{
+	padding-top: 120px;
+	background: #212121;
+	transition: all .3s;
+}
+
+footer .divider{
+	border-color: rgba(255,255,255,.15);
+}
+
+footer .copyright{
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #fefefe;
+	font-weight: lighter;
+	margin-bottom: 50px;
+}
+
+i.back-top{
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	font-size: 20px;
+	border: 3px solid #03a9f4;
+	padding: 7px 15px;
+	color: #03a9f4;
+	transition: all .3s ease;
+}
+
+i.back-top:hover{
+	/*background-color: #9E9E9E;*/
+	font-size: 25px;
+	padding: 7px 17px;
+	bottom: 27.5px;
+	right: 27.5px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===================================================================================================
+============================================= MEDIA QUERIES ========================================== */
+
+@media screen and (max-width: 992px){
+
+	h1.slogan{
+		font-size: 58px;
+	}
+
+	p.slogan-description{
+		font-size: 22px;
+		margin-top: -10px;
+	}
+
+	.btn-landing{
+		font-size: 90%;
+	}
+
+	.top-card{
+		margin-bottom: 35px;
+	}
+
+	.store-badge{
+		margin-left: -25px;
+	}
+
+	.contact-us{
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 767px){
+	ul.general {
+		margin-right: 0 !important;
+		margin-left: 0px !important;
+	}
+
+	.nav li a:link,
+	.nav li a:visited {
+		border-bottom: none;
+		transition: all .3s;
+	}
+
+	.nav li a:hover,
+	.nav li a:active {
+		border-bottom: none;
+	}
+
+	header{
+		height: 100%;
+	}
+
+	.btn-landing{
+		margin-bottom: 80px;
+		font-size: 80%;
+	}
+
+	h1.slogan{
+		margin-top: 70px;
+		font-size: 350%;
+		margin-bottom: 5px;
+	}
+
+	p.slogan-description{
+		font-size: 135%;
+	}
+
+	p.slogan-description{
+		display: none !important;
+	}
+
+
+	.feat1{
+		padding-top: 50px;
+	}
+
+	h2.feat1-heading{
+		font-size:210%;
+	}
+
+	.feat1 h2:after{
+		width: 80px;
+		margin-bottom: 30px;
+	}
+
+	.feat1 p.feat1-description{
+		font-size: 130%;
+		margin-bottom: 100px;
+	}
+
+	p.feat1-description{
+		margin-bottom: 0px;
+	}
+
+	.feat1 .ion {
+		font-size: 80px;
+	}
+
+	.feat1 h3{
+		font-size: 160%;
+	}
+
+	p.feat1-service-description{
+		font-size: 120% !important;
+	}
+
+	/*.feat1-xs{
+		width: 100%;
+		margin-left: 0;
+	}*/
+
+	h2.feat2-heading{
+		font-size:210%;
+	}
+
+	.feat2 h2:after{
+		width: 100px;
+		margin-bottom: 10px;
+	}
+
+	.step p{ 
+		font-size: 70%;
+	}
+
+	.number{
+		height: 45px;
+		width: 45px;
+		font-size: 95%;
+		padding-top: 8px;
+	}
+
+	.test h3{
+		font-size: 130%;
+	}
+
+	.feat3 .ion{
+		font-size: 250%;
+	}
+}
+
+
+@media screen and (max-width: 568px){
+
+	header{
+		height: 100%;
+	}
+
+	.btn-landing{
+		margin-bottom: 80px;
+		font-size: 80%;
+	}
+
+	h1.slogan{
+		margin-top: 70px;
+		font-size: 215%;
+		margin-bottom: 5px;
+	}
+
+	p.slogan-description{
+		font-size: 135%;
+	}
+
+	p.slogan-description{
+		display: none !important;
+	}
+
+
+	h2.feat1-heading{
+		font-size:210%;
+	}
+
+	.feat1 h2:after{
+		width: 80px;
+		margin-bottom: 30px;
+	}
+
+	.feat1 p.feat1-description{
+		font-size: 130%;
+		margin-bottom: 100px;
+	}
+
+	p.feat1-description{
+		margin-bottom: 0px;
+	}
+
+	.feat1 .ion {
+		font-size: 80px;
+	}
+
+	.feat1 h3{
+		font-size: 160%;
+	}
+
+	p.feat1-service-description{
+		font-size: 120% !important;
+	}
+
+	/*.feat1-xs{
+		width: 100%;
+		margin-left: 0;
+	}*/
+
+	h2.feat2-heading{
+		font-size:210%;
+	}
+
+	.feat2 h2:after{
+		width: 100px;
+		margin-bottom: 10px;
+	}
+
+	.steps{
+		margin-top: 80px;
+	}
+
+	.step p{ 
+		font-size: 60%;
+	}
+
+	.number{
+		height: 40px;
+		width: 40px;
+		font-size: 95%;
+		padding-top: 7px;
+	}
+
+
+
+	h2.feat3-heading{
+		font-size:210%;
+	}
+
+	.feat3 h2:after{
+		width: 80px;
+	}
+
+	.test h3{
+		font-size: 110%;
+	}
+
+	.feat3{
+		padding-top: 70px;
+	}
+
+	.feat3 p{
+		font-size: 20px;
+	}
+
+	.test{
+		/*width: 95%;*/
+		padding-bottom: 10px;	
+	}
+
+	.feat3 .ion {
+		margin-top: 10px;
+	}
+
+	.feat3 h3{
+		margin-bottom: 0px;
+	}
+
+	h2.feat4-heading{
+		font-size:210%;
+	}
+
+	.feat4 h2:after{
+		width: 60px;
+	}
+
+}
+
+@media screen and (max-width: 458px){
+
+	/****************************************** lANDING ZONE ****************************************
+	************************************************************************************************/
+	header{
+		height: 100%;
+	}
+
+	.btn-landing{
+		margin-bottom: 30px;
+		font-size: 80%;
+	}
+	
+	h1.slogan{
+		margin-top: 70px;
+		font-size: 200%;
+		margin-bottom: 5px;
+	}
+
+	p.slogan-description{
+		font-size: 140%;
+	}
+
+	p.slogan-description{
+		display: none !important;
+	}
+
+
+
+
+	/**************************************** WHAT IS iCHORES **************************************
+	************************************************************************************************/
+
+	h2.feat1-heading{
+		font-size:200%;
+	}
+
+	.feat1 h2:after{
+		width: 80px;
+		margin-bottom: 30px;
+	}
+
+	.feat1 p.feat1-description{
+		font-size: 120%;
+		margin-bottom: 100px;
+	}
+
+	p.feat1-description{
+		margin-bottom: 20px;
+	}
+
+	.feat1 .ion {
+		font-size: 70px;
+	}
+
+	.feat1 h3{
+		font-size: 150%;
+	}
+
+	p.feat1-service-description{
+		font-size: 110% !important;
+	}
+
+	.feat1-xs{
+		width: 100%;
+		margin-left: 0;
+	}
+
+	/**************************************** MEET iCHOREsAPP **************************************
+	************************************************************************************************/
+
+	h2.feat2-heading{
+		font-size:200%;
+	}
+
+	.feat2 h2:after{
+		width: 100px;
+		margin-bottom: 10px;
+	}
+
+	.pix{
+		width: 66.66666667%;
+		margin-left: 16.66666667%;
+		margin-bottom: 30px;
+	}
+
+	.step p{ 
+		font-size: 70%;
+	}
+
+	.store-badge{
+		margin-left: 0px;
+		margin-top: 10px;
+		width: 100%;
+	}
+
+	.store-xs{
+		width: 50%;
+		margin-left: 25%;
+	}
+
+	/****************************************** OUR SERVICES ****************************************
+	************************************************************************************************/
+
+	h2.feat3-heading{
+		font-size:200%;
+	}
+
+	.feat3 h2:after{
+		width: 80px;
+	}
+
+	.test h3{
+		font-size: 110%;
+	}
+
+	.feat3{
+		padding-top: 70px;
+	}
+
+	.feat3 p{
+		font-size: 20px;
+	}
+
+	.test{
+		/*width: 95%;*/
+		padding-bottom: 10px;	
+	}
+
+	.feat3 .ion {
+		margin-top: 10px;
+	}
+
+	.feat3 h3{
+		margin-bottom: 0px;
+	}
+
+	/******************************************* CONTACT US *****************************************
+	************************************************************************************************/
+
+	h2.feat4-heading{
+		font-size:200%;
+	}
+
+	.feat4 h2:after{
+		width: 60px;
+	}
+
+
+}
+
+@media screen and (max-width: 348px){
+
+	/****************************************** lANDING ZONE ****************************************
+	************************************************************************************************/
+	header{
+		height: 100%;
+	}
+
+	.btn-landing{
+		margin-bottom: 30px;
+		font-size: 80%;
+		padding: 4px 5px;
+	}
+	
+	h1.slogan{
+		margin-top: 30px;
+		font-size: 170%;
+		margin-bottom: 10px;
+	}
+
+	p.slogan-description{
+		display: none !important;
+	}
+
+
+
+	/**************************************** WHAT IS iCHORES **************************************
+	************************************************************************************************/
+
+	.feat1{
+		padding-top: 60px;
+	}
+
+	h2.feat1-heading{
+		font-size:170%;
+	}
+
+	.feat1 h2:after{
+		width: 80px;
+		margin-bottom: 30px;
+	}
+
+	.feat1 p.feat1-description{
+		font-size: 110%;
+		margin-bottom: 50px;
+	}
+
+	p.feat1-description{
+		margin-bottom: 20px;
+	}
+
+	.feat1 .ion {
+		font-size: 70px;
+	}
+
+	.feat1 h3{
+		font-size: 150%;
+	}
+
+	p.feat1-service-description{
+		font-size: 110% !important;
+		line-height: 20px;
+	}
+
+	.feat1-xs{
+		width: 100%;
+		margin-left: 0;
+	}
+
+	.desc{
+		padding: 0 10px;
+	}
+
+	/*************************************** MEET iCHOREsAPP **************************************
+	**********************************************************************************************/
+
+	h2.feat2-heading{
+		font-size:170%;
+	}
+
+	.feat2 h2:after{
+		width: 80px;
+		margin-bottom: 10px;
+	}
+
+	.pix{
+		width: 66.66666667%;
+		margin-left: 16.66666667%;
+		margin-bottom: 30px;
+	}
+
+	.step p{ 
+		font-size: 60%;
+	}
+
+	.store-badge{
+		margin-left: 0px;
+		margin-top: 10px;
+		width: 100%;
+	}
+
+	.store-xs{
+		width: 66.66666667%;
+		margin-left: 16.66666667%;
+	}
+
+	/****************************************** OUR SERVICES ****************************************
+	************************************************************************************************/
+
+	.service-xs{
+		width: 83.33333333%;
+		margin-left: 8.33333333%;
+	}
+
+	h2.feat3-heading{
+		font-size:170%;
+	}
+
+	.feat3 h2:after{
+		width: 65px;
+	}
+
+	.test h3{
+		font-size: 120%;
+		margin-top: 7px;
+	}
+
+	.feat3{
+		padding-top: 70px;
+	}
+
+	.feat3 p{
+		font-size: 20px;
+	}
+
+	.test{
+		/*width: 95%;*/
+		padding-bottom: 10px;	
+	}
+
+	.feat3 .ion {
+		margin-top: 7px;
+		font-size: 170%;
+	}
+
+	.feat3 h3{
+		margin-bottom: 0px;
+	}
+
+	/******************************************* CONTACT US *****************************************
+	************************************************************************************************/
+
+	h2.feat4-heading{
+		font-size:170%;
+	}
+
+	.feat4 h2:after{
+		width: 40px;
+	}
+
+
+}
+
+.sticky-shown{
+	transition: all .3s;
+	display: block;
+}
+
+.hyper-active{
+	color: #03a9f4 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============================================================================================
+====================================== FRAMEWORK =========================================== */
+
+.card {
+  border-radius: 2px;
+}
+
+.card-1 {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card-2 {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.card-3 {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.hoverable:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.hoverable-1:hover {
+	border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.hoverable-2:hover {
+  box-shadow: 0 7px 13px rgba(0,0,0,0.12), 0 5px 10px rgba(0,0,0,0.12);
+}
+
+.hoverable-3:hover {
+  box-shadow: 0 2px 15px rgba(0,0,0,0.07);
+}
+
+/**************************************************** CARD *********************************************************/
+/*******************************************************************************************************************/
+
+
+.group:before,
+.group:after{
+	content: "";
+	display: table;
+}
+
+.group:after{
+	clear: both;
+}
+
+.group{
+	zoom: 1;
+}
